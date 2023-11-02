@@ -1,0 +1,135 @@
+  .colorc,
+  .colore,
+  .colorf,
+  .colorg,
+  .colorh,
+  .colori,
+  .colorl,
+  .colorp,
+  .colorr,
+  .colors {
+    color: rgb(95, 95, 95);
+    width: 500px;
+    border: 8px solid;
+    border-color: white;
+    border-radius: 12px;
+    /* background-color: #bde0fe; */
+    /* margin: 5px; */
+  }
+
+  .colorc {
+    background-color: #a2d2ff;
+  }
+
+  .completed{
+    background-color:#14539a;
+    color: white;
+    width: 500px;
+    border: 8px solid;
+    border-color: white;
+    border-radius: 12px;
+  }
+  .completed:hover {
+    background-color: #103865;
+    color: white;
+
+  }
+  .completeit{
+    background-color:rgb(200, 208, 41);
+    color: white;
+    width: 500px;
+    border: 8px solid;
+    border-color: white;
+    border-radius: 12px;
+  }
+  .colore,
+  .colorf {
+    background-color: #bde0fe;
+  }
+
+  .colorg,
+  .colorh,
+  .colori {
+    background-color: #ffafcc;
+  }
+
+  .colorl,
+  .colorp {
+    background-color: #ffc8dd;
+  }
+
+  .colorr,
+  .colors {
+    background-color: #cdb4db;
+  }
+
+
+  /* button */
+
+  .button {
+    display: inline-block;
+    background-color: #2ff3779e;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #24883f;
+  }
+
+  .button.primary {
+    background-color: #bde0fe;
+  }
+
+  .button.secondary {
+    background-color: #ffafcc;
+  }
+
+  .button.success {
+    background-color: #ffc8dd;
+  }
+
+  .button.danger {
+    background-color: #cdb4db;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1px;
+  }
+  .card-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1px;
+  }
+  
+    .card-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+    
+  .chart-container {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .chart-container > div {
+    width: 400px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
